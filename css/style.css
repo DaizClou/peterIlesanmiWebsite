@@ -25,11 +25,10 @@ a:hover{
     padding: 17px 5%;
 }
 .navbar{
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.4);
     width: 100vw;
     position: fixed;
     z-index: 1;
-    border-bottom: solid 1px #C0C0C0;
 }
 .navbar li{
     font-weight: 400;
@@ -164,16 +163,16 @@ a:hover{
     /* padding: 15px; */
     margin-bottom: 20px;
     font-size: 13px;
+    width: 335px;
+    margin: 0 auto; 
 }
 #nugget .cttn{
     text-align: center;
-    border: solid 1px #192531;
-    background-image: linear-gradient(45deg, #6e80e3, rgb(235, 150, 150));
-    padding: 40px 30px;
-    border-radius: 8px;
-    font-size: 8px;
     margin: 12px 8px;
+    height: 300px;
+    width: 320px;
 }
+
 #nugget .title{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.856);
@@ -189,7 +188,21 @@ a:hover{
     padding: 15px 10px;
     
 }
-
+#nugget .csn{
+    border: solid 1px #192531;
+    /* padding: 15px; */
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+#nugget .cstn{
+    text-align: center;
+    margin: 12px 8px;
+    border: solid 1px black;
+    background-image: linear-gradient(45deg, #6e80e3, rgb(235, 150, 150));
+    padding: 40px 30px;
+    border-radius: 8px;
+    font-size: 8px;
+}
 
 #login{
     height: 100vh;
@@ -250,6 +263,14 @@ a:hover{
     width: 60px
 }
 
+#footer{
+    background-color: #192531;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+#footer p{
+    margin-left: 30px;
+}
 
 
 /* laptop screen above  */
