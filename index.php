@@ -72,9 +72,12 @@
           <br>
           <h3>WITH <br> PASTOR <br> PETER ILESANMI</h3>
           <br>
-          <a href="https://wa.me/+2348036113135" target='_blank'>
-            <i class='fab fa-whatsapp fa-3x'></i>
+          <div class="whatsapp-container">
+            <a href="https://wa.me/+2348036113135"  target='_blank'>
+            <i class='fab fa-whatsapp fa-2x'></i><span id="whatsapp-link">Connect</span>
           </a>
+        </div>
+          
         </div>
       </div>
     </div>
@@ -103,7 +106,7 @@
             Ltd, and General Manager of New Horizons Nigeria, He currently lives in Nigeria with his family.
           </p>
           <br>
-          <button>Get in Touch</button>
+          <a href="#" class="nav-link btn-copy"  data-bs-toggle="modal" data-bs-target="#contactModal">Get in Touch</a>
 
         </div>
         <div class='col-lg-6 center second'>

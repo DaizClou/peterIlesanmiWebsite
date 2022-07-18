@@ -58,6 +58,21 @@ a:hover{
     color: white;
 }
 
+#whatsapp-link{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.whatsapp-container{
+    border: 1px solid #ff9126;
+    padding: 15px 10px;
+    width: 45%;
+}
+
+.whatsapp-container:hover{
+    box-shadow: 0 0 10px #ff9126;
+}
+
 .first{
     display: block;
 }
@@ -95,6 +110,21 @@ a:hover{
     border-radius: 9px;
     background: #ff9126;
     font-size: 20px;
+}
+.btn-copy{
+    color: white;
+    border: none;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 9px;
+    background: #ff9126;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn-copy:hover{
+    box-shadow: 0px 0px 5px #ff9126;
+    color: white;
+
 }
 
 #latest{
@@ -301,5 +331,8 @@ a:hover{
     .card img{
         height: 300px;
         width: 300px;
+    }
+    #whatsapp-link{
+        font-size: 1.5rem;
     }
 }

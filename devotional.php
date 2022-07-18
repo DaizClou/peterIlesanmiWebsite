@@ -77,7 +77,6 @@
               </div>
 
               <div class='col-lg-6 '>
-                ".date('M dS, Y', strtotime($row['date']) ).". <br> <br>
 
                 <h3 class='intro-header'>".$row['text']."</h3>
                 <p>".$row['subtext']."</p>
